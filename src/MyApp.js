@@ -8,6 +8,9 @@ import About from './components/About.js';
 import Contact from './components/Contact.js';
 import Body from './components/Body.js';
 import Language from './components/Language.js';
+import Gallary from './components/Gallary.js';
+import Blogs from './components/Blogs.js';
+import Learning from './components/Learning.js';
 
 function MyApp()
 {
@@ -40,6 +43,18 @@ export const appRouter = createBrowserRouter([
                           {
                             path:'/language',
                             element: <Language/>
+                          },
+                          {
+                            path:'/gallary',
+                            element:<Gallary/>
+                          },
+                          {
+                            path:'/blogs',
+                            element:<Blogs/>
+                          },
+                          {
+                          path:'/learning',
+                          element:<Learning/>
                           }
                         ]
                     }]);

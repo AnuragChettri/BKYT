@@ -107,3 +107,24 @@
     background-color: lightgray;
     height: 200px;
 }
+
+@media(max-width:640px)
+{
+    .contact-body{
+        flex-direction: column;
+    }
+    .contact-form{
+        margin-right: 10px;
+    }
+}
+
+@media(max-width:430px)
+{
+    .contact-info{
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact-info > div{
+        margin-top: 20px;
+    }
+}

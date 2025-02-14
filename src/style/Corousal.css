@@ -35,3 +35,9 @@
 .slick-dots li button:before{
     font-size: 10px;
 }
+
+@media(max-width:500px){
+    .corousal-img{
+        height: 350px;
+    }
+}

@@ -51,3 +51,10 @@
   font-size: 1.25rem;
   /* line-height: 1.75rem; */
 }
+
+@media(max-width:550px){
+  .guest-div{
+    grid-template-columns: 1fr;
+    width: 85%;
+  }
+}
