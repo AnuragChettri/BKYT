@@ -1,0 +1,37 @@
+
+.corousal-div{
+    background-color: gray;
+}
+
+.corousal-main-div{
+    width: 100%;
+    margin: auto;
+}
+
+.corousal-img{
+    width: 100%;
+    height: 550px;
+}
+
+.slick-prev{
+    z-index: 1;
+    top: 50%;
+    left: 2%;
+}
+.slick-next{
+    z-index: 1;
+    top: 50%;
+    right: 2%;
+}
+
+.slick-prev:before{
+    font-size: 50px;
+}
+.slick-next:before{
+    font-size: 50px;
+}
+
+/* Style for dots */
+.slick-dots li button:before{
+    font-size: 10px;
+}

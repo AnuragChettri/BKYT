@@ -1,0 +1,14 @@
+
+.main-footer-div{
+    margin-top: 50px;
+    height: 100px;
+    background-color: lightblue;
+}
+
+.main-footer-div > h1{
+    text-align: center;
+    color: black;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}

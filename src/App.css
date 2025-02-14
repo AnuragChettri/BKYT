@@ -1,0 +1,53 @@
+
+/*  ********** Custom CSS ***************** */
+
+.main-body-img{
+  width: 100%;
+  height: 500px;
+}
+
+
+.guest-div{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 40px;
+  column-gap: 40px;
+  width: 65%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.guest-cart-div{
+  /* width: 360px; */
+  height: 500px;
+  border: 1px solid lightgray;
+  box-shadow: 3px 3px 5px rgb(177, 176, 176);
+  border-radius: 0.5rem;
+  padding-bottom: 10px;
+
+  transition-property: transform;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+  transition-delay: 0ms;
+}
+.guest-cart-div:hover{
+  transform: translate(5px,-15px);
+}
+
+.guest-img{
+  width: 100%;
+  height: 400px;
+  /* height: 100%; */
+}
+
+.guest-details-div{
+  margin-top: 10px;
+  text-align: center;
+}
+
+.guest-details-div > h2{
+  margin: 0px;
+  font-weight: 700;
+  font-size: 1.25rem;
+  /* line-height: 1.75rem; */
+}
